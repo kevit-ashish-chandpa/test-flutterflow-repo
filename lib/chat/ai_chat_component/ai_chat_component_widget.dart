@@ -36,16 +36,6 @@ class _AiChatComponentWidgetState extends State<AiChatComponentWidget> {
 
   @override
   Widget build(BuildContext context) {
-    return Align(
-      alignment: const AlignmentDirectional(0.0, 0.0),
-      child: Container(
-        width: double.infinity,
-        height: double.infinity,
-        constraints: const BoxConstraints(
-          maxWidth: 770.0,
-        ),
-        decoration: const BoxDecoration(),
-      ),
-    );
+    return Container();
   }
 }

@@ -52,7 +52,7 @@ class _ChatAiScreenWidgetState extends State<ChatAiScreenWidget> {
           backgroundColor: FlutterFlowTheme.of(context).primaryBackground,
           automaticallyImplyLeading: false,
           title: Text(
-            'Ai Chat',
+            'Ai Chat viewwwwa',
             style: FlutterFlowTheme.of(context).headlineMedium.override(
                   fontFamily: 'Readex Pro',
                   letterSpacing: 0.0,
