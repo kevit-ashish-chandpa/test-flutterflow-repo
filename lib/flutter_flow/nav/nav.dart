@@ -31,12 +31,12 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
       initialLocation: '/',
       debugLogDiagnostics: true,
       refreshListenable: appStateNotifier,
-      errorBuilder: (context, state) => const SamplePageFormarkdownWidget(),
+      errorBuilder: (context, state) => const ChatAiScreenWidget(),
       routes: [
         FFRoute(
           name: '_initialize',
           path: '/',
-          builder: (context, _) => const SamplePageFormarkdownWidget(),
+          builder: (context, _) => const ChatAiScreenWidget(),
         ),
         FFRoute(
           name: 'chat_ai_Screen',
